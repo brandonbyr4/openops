@@ -6,7 +6,7 @@ export default function Header () {
         <header className="fixed top-0 w-full px-3 bg-gray-100">
             <div className="flex justify-between items-center max-w-screen-xl mx-auto py-5">
                 <Link href="/" className="text-2xl text-gray-900">
-                OpenOps
+                    OpenOps
                 </Link>
                 <ul className="flex gap-10">
                     <li>
