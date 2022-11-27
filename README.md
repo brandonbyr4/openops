@@ -1,5 +1,6 @@
 <p align="center">
    <br/>
+   <img width="200px" src="https://i.ibb.co/mhdC7YG/logo.png" />
    <h3 align="center">OpenOps</h3>
    <p align="center">Self hosted business analytics dashboard</p>
    <p align="center">
