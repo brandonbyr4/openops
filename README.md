@@ -1,7 +1,6 @@
 <p align="center">
    <br/>
-   <img width="200px" src="https://i.ibb.co/mhdC7YG/logo.png" />
-   <h3 align="center">OpenOps</h3>
+   <img width="250px" src="https://i.ibb.co/mhdC7YG/logo.png" />
    <p align="center">Self hosted business analytics dashboard</p>
    <p align="center">
    Centralize your operations.  Own your data.
