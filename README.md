@@ -1,3 +1,11 @@
+<p align="center">
+   <br/>
+   <h1 align="center">OpenOps</h1>
+   <p align="center">Self hosted business analytics dashboard</p>
+   <p align="center">
+   Centralize your operations.  Own your data.
+   </p>
+</p>
 
 ## Overview 
 
