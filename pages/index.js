@@ -17,7 +17,7 @@ export default function Home() {
                         </h1>
                     </div>
                 </section>
-                <section className="h-[500px]">
+                <section className="px-3 h-[500px]">
                     <div className="max-w-screen-xl mx-auto py-14">
                         <ul className="grid grid-cols-2 gap-x-8 gap-y-4">
                             <li className="p-10 bg-gray-100 rounded shadow">
