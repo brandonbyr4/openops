@@ -3,7 +3,7 @@
 
 OpenOps is an open source, self hosted Next.js business dashboard. Bring Google Analytics, PayPal, Stripe, and more into one UI.
 
-The OpenOps dashboard lets you use one app, instead of having to open multiple different tabs to checkthe status of your website, service, or business.
+The OpenOps dashboard lets you use one app, instead of having to open multiple different tabs to check the status of your website, service, or business.
 
 It is designed to run on your own hardware & servers, completely free of charge.  To get started, follow the get started guide below.
 
