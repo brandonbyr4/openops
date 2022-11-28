@@ -17,7 +17,7 @@ It is designed to run on your own hardware & servers, completely free of charge.
 
 ## Get Started
 
-First, install the necessary dependencies and start the development server.
+First, download the project and open a terminal in the same location.  Then, run the following commands to install the necessary dependencies and start the development server.
 ```shell
   npm install
 ```
