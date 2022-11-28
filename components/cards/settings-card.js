@@ -3,10 +3,10 @@ import ButtonMainAction from "../buttons/button-main-action"
 
 export default function SettingsCard (props) {
     return <li className="flex flex-col justify-between p-8 border border-gray-900 rounded">
-        <div className="w-8 mb-4">
+        <div className={props.imageWidth}>
             <Image src={props.src} alt="Google Analytics logo" />
         </div>
-        <div>
+        <div className="mt-4">
             <p className="text-xl text-gray-900 mb-2">
                 {props.title}
             </p>
