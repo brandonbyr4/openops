@@ -23,7 +23,7 @@ export default function Home() {
                                     <ButtonMainAction text="Customize" />
                                 </li>
                                 <li>
-                                    <ButtonMainLink text="Add Items" href="/" />
+                                    <ButtonMainLink text="Add Items" href="/settings" />
                                 </li>
                             </ul>
                         </div>
