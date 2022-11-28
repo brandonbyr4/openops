@@ -3,6 +3,10 @@ import ButtonMainAction from "../components/buttons/button-main-action"
 import ButtonMainLink from "../components/buttons/button-main-link"
 
 export default function Home() {
+    const handleCustomization = () => {
+        alert("Coming soon!")
+    }
+
     return (
         <div>
             <Head>
@@ -20,7 +24,7 @@ export default function Home() {
                             </h1>
                             <ul className="flex items-center gap-4">
                                 <li>
-                                    <ButtonMainAction text="Customize" />
+                                    <ButtonMainAction text="Customize" onClick={() => handleCustomization()} />
                                 </li>
                                 <li>
                                     <ButtonMainLink text="Add Items" href="/settings" />

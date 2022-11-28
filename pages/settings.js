@@ -6,6 +6,10 @@ import paypal_logo from "../public/images/paypal_logo.png"
 import stripe_logo from "../public/images/stripe_logo.png"
 
 export default function Settings() {
+    const handleConfiguration = () => {
+        alert("Coming soon!")
+    }
+
     return (
         <div>
             <Head>
@@ -32,10 +36,10 @@ export default function Settings() {
                                         Google Analytics
                                     </p>
                                     <p className="text-gray-900 mb-6">
-                                        Data and analytics for PayPal transactions
+                                        Traffic analytics and user demographics
                                     </p>
                                     <div className="flex justify-center">
-                                        <ButtonMainAction text="Configure" />
+                                        <ButtonMainAction text="Configure" onClick={() => handleConfiguration()} />
                                     </div>
                                 </div>
                             </li>
@@ -51,7 +55,7 @@ export default function Settings() {
                                         Data and analytics for PayPal transactions
                                     </p>
                                     <div className="flex justify-center">
-                                        <ButtonMainAction text="Configure" />
+                                        <ButtonMainAction text="Configure" onClick={() => handleConfiguration()} />
                                     </div>
                                 </div>
                             </li>
@@ -67,7 +71,7 @@ export default function Settings() {
                                         Data and analytics for Stripe transactions
                                     </p>
                                     <div className="flex justify-center">
-                                        <ButtonMainAction text="Configure" />
+                                        <ButtonMainAction text="Configure" onClick={() => handleConfiguration()} />
                                     </div>
                                 </div>
                             </li>
