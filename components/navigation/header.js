@@ -61,7 +61,7 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href="/"
+                href="/export"
                 className="flex gap-3 text-gray-900 hover:text-gray-400 whitespace-nowrap"
               >
                 Export
