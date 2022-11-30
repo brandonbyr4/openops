@@ -13,7 +13,7 @@ export default function Header() {
             <li>
               <Link
                 href="/"
-                className="flex gap-3 text-gray-900 hover:text-gray-400 whitespace-nowrap"
+                className="flex gap-2 text-gray-900 hover:text-gray-400 whitespace-nowrap"
               >
                 Dashboard
                 <svg
@@ -40,7 +40,7 @@ export default function Header() {
             <li>
               <Link
                 href="/settings"
-                className="flex gap-3 text-gray-900 hover:text-gray-400 whitespace-nowrap"
+                className="flex gap-2 text-gray-900 hover:text-gray-400 whitespace-nowrap"
               >
                 Settings
                 <svg
@@ -62,7 +62,7 @@ export default function Header() {
             <li>
               <Link
                 href="/export"
-                className="flex gap-3 text-gray-900 hover:text-gray-400 whitespace-nowrap"
+                className="flex gap-2 text-gray-900 hover:text-gray-400 whitespace-nowrap"
               >
                 Export
                 <svg
