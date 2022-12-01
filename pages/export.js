@@ -26,7 +26,7 @@ export default function Settings() {
                             <h2 className="text-3xl font-gray-900">
                                 Export configuration
                             </h2>
-                            <ul className="grid grid-cols-4 gap-8">
+                            <ul className="grid lg:grid-cols-4 md:grid-cols-2 gap-8">
                                 <li>
                                     <p className="text-xl text-gray-900">
                                         Google Analytics
@@ -116,7 +116,7 @@ export default function Settings() {
                                 </li>
                                 <li className="flex flex-col justify-between">
                                     <div className="invisible" />
-                                    <div className="flex justify-end">
+                                    <div className="flex md:justify-end">
                                         <ButtonMainAction text="Export" onClick={() => handleAlert()} />
                                     </div>
                                 </li>

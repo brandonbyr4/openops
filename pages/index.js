@@ -57,15 +57,15 @@ export default function Home() {
                         <h2 className="text-3xl font-gray-900">
                             No integrations found
                         </h2>
-                        <ul className="grid grid-cols-2 gap-8">
+                        <ul className="grid md:grid-cols-2 gap-8">
                             <li>
-                                <p className="text-xl text-gray-900">
+                                <p className="md:text-xl text-gray-900">
                                     Configure an integration to start viewing data.
                                 </p>
                             </li>
                             <li className="flex flex-col justify-between">
                                 <div className="invisible" />
-                                <div className="flex justify-end">
+                                <div className="flex md:justify-end">
                                     <ButtonMainLink text="Setup" href="/settings" />
                                 </div>
                             </li>
