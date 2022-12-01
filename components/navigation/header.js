@@ -123,7 +123,7 @@ export default function Header() {
           </svg>}
         </div>
         {mobileMenu ? <div ref={mobileMenuRef} className="md:hidden absolute top-14 right-3 w-44 py-4 bg-white rounded shadow">
-          <Link href="/" className="flex gap-2 justify-center p-3 text-gray-900 text-center hover:bg-gray-100 whitespace-nowrap">
+          <Link href="/" className="flex gap-2 justify-center p-3 text-gray-900 hover:bg-gray-100 whitespace-nowrap">
             Dashboard
             <svg
               className="w-6 h-6"
@@ -145,7 +145,7 @@ export default function Header() {
               />
             </svg>
           </Link>
-          <Link href="/settings" className="flex gap-2 justify-center p-3 text-gray-900 text-center hover:bg-gray-100 whitespace-nowrap">
+          <Link href="/settings" className="flex gap-2 justify-center p-3 text-gray-900 hover:bg-gray-100 whitespace-nowrap">
             Settings
             <svg
               className="w-6 h-6"
@@ -162,7 +162,7 @@ export default function Header() {
               />
             </svg>
           </Link>
-          <Link href="/export" className="flex gap-2 justify-center p-3 text-gray-900 text-center hover:bg-gray-100 whitespace-nowrap">
+          <Link href="/export" className="flex gap-2 justify-center p-3 text-gray-900 hover:bg-gray-100 whitespace-nowrap">
             Export
             <svg
               className="w-6 h-6"
