@@ -13,6 +13,8 @@ export default function Settings() {
     if (error) return <div>Failed to load</div>
     if (!data) return <div>Loading...</div>
 
+    const settings = JSON.parse(data).settings
+
     const handleConfiguration = () => {
         alert("Coming soon!")
     }
@@ -38,7 +40,7 @@ export default function Settings() {
                             <SettingsCard src={paypal_logo} imageWidth="w-24" title="PayPal" description="Data and analytics for PayPal transactions" onClick={() => handleConfiguration()} />
                             <SettingsCard src={stripe_logo} imageWidth="w-16" title="Stripe" description="Data and analytics for Stripe transactions" onClick={() => handleConfiguration()} />
                         </ul>
-                        {/* {JSON.parse(data).settings.googleAnalyticsAPIKey} */}
+                        {/* {settings.googleAnalyticsAPIKey} */}
                     </div>
                 </section>
             </main>
