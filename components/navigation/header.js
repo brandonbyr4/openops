@@ -9,7 +9,7 @@ export default function Header() {
           <Link href="/" className="text-2xl text-gray-900 whitespace-nowrap">
             OpenOps
           </Link>
-          <ul className="flex gap-10">
+          <ul className="md:flex hidden gap-10">
             <li>
               <Link
                 href="/"
@@ -82,6 +82,9 @@ export default function Header() {
               </Link>
             </li>
           </ul>
+          <svg className="md:hidden block w-6 h-6 text-gray-900 cursor-pointer" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+          </svg>
         </div>
       </header>
     </div>
