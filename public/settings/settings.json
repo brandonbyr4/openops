@@ -2,6 +2,6 @@
     "settings": {
         "googleAnalyticsAPIKey": "",
         "paypalAPIKey": "",
-        "stripeAPIKey": "asd"
+        "stripeAPIKey": ""
     }
 }

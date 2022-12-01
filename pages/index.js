@@ -52,24 +52,29 @@ export default function Home() {
                             </ul>
                         </div>
                     </section>
-                </div> : <section className="px-3 bg-white">
-                    <div className="max-w-screen-xl mx-auto flex flex-col p-10 space-y-4 border border-gray-900 rounded">
-                        <h2 className="text-3xl font-gray-900">
-                            No integrations found
-                        </h2>
-                        <ul className="grid md:grid-cols-2 gap-8">
-                            <li>
-                                <p className="md:text-xl text-gray-900">
-                                    Configure an integration to start viewing data.
-                                </p>
-                            </li>
-                            <li className="flex flex-col justify-between">
-                                <div className="invisible" />
-                                <div className="flex md:justify-end">
-                                    <ButtonMainLink text="Setup" href="/settings" />
-                                </div>
-                            </li>
-                        </ul>
+                </div> : <section className="px-3 bg-white">    
+                    <div className="max-w-screen-xl mx-auto">
+                        <h1 className="text-3xl text-gray-900">
+                            Welcome to OpenOps
+                        </h1>
+                        <div className=" flex flex-col mt-8 p-10 space-y-4 border border-gray-900 rounded">
+                            <h2 className="text-3xl font-gray-900">
+                                No integrations found
+                            </h2>
+                            <ul className="grid md:grid-cols-2 gap-8">
+                                <li>
+                                    <p className="md:text-xl text-gray-900">
+                                        Configure an integration to start viewing data.
+                                    </p>
+                                </li>
+                                <li className="flex flex-col justify-between">
+                                    <div className="invisible" />
+                                    <div className="flex md:justify-end">
+                                        <ButtonMainLink text="Setup" href="/settings" />
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>   
                 </section>}
             </main>
