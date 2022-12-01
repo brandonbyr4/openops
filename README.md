@@ -48,5 +48,9 @@ Secure Data
 
 Everyone is welcome to make a contribution to OpenOps.  If you are interested in contributing to this project, start with the [Contributing Guide](https://github.com/ThePlugJumbo/openops/blob/main/CONTRIBUTING.md).
 
+<a href = "https://github.com/ThePlugJumbo/openops/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo = ThePlugJumbo/openops"/>
+</a>
+
 ## License
 MIT - [License](https://github.com/ThePlugJumbo/openops/blob/main/LICENSE)
