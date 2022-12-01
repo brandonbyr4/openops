@@ -6,7 +6,7 @@
    Centralize your operations.  Own your data.
    </p>
 </p>
-
+<img src="https://i.ibb.co/5KChfQw/Screenshot-2022-12-01-150341.png" />
 ## Overview 
 
 OpenOps is an open source, self hosted Next.js business dashboard. Bring Google Analytics, PayPal, Stripe, and more into one UI.
