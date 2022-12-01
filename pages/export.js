@@ -22,7 +22,7 @@ export default function Settings() {
                                 Export
                             </h1>
                         </div>
-                        <div className="flex flex-col p-10 space-y-4 mt-8 border border-gray-900 rounded">
+                        <div className="flex flex-col mt-8 p-10 space-y-4 border border-gray-900 rounded">
                             <h2 className="text-3xl font-gray-900">
                                 Export configuration
                             </h2>
