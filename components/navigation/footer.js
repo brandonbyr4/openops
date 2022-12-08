@@ -29,7 +29,7 @@ export default function Footer() {
               href="https://github.com/ThePlugJumbo/openops/issues"
               className="text-gray-900 hover:underline whitespace-nowrap"
             >
-              Report An Issue
+              Report A Bug
             </Link>
           </li>
         </ul>
