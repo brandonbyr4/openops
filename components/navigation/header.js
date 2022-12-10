@@ -1,6 +1,6 @@
-import Link from "next/link";
-import { useState, useEffect, useRef } from "react";
-import { useRouter } from "next/router";
+import Link from 'next/link';
+import { useState, useEffect, useRef } from 'react';
+import { useRouter } from 'next/router';
 
 export default function Header() {
   const [mobileMenu, setMobileMenu] = useState(false);
@@ -11,10 +11,10 @@ export default function Header() {
       setMobileMenu(false);
     };
 
-    router.events.on("routeChangeComplete", handleRouteChange);
+    router.events.on('routeChangeComplete', handleRouteChange);
 
     return () => {
-      router.events.off("routeChangeComplete", handleRouteChange);
+      router.events.off('routeChangeComplete', handleRouteChange);
     };
   }, [router.events]);
 
@@ -22,14 +22,14 @@ export default function Header() {
   const useOutsideCheck = (ref) => {
     useEffect(() => {
       function handleClickOutside(event) {
-        if (ref.current && !ref.current.contains(event.target)) {
+        if (ref.current && ref.current.contains(event.target)) {
           setMobileMenu(false);
         }
       }
 
-      document.addEventListener("mousedown", handleClickOutside);
+      document.addEventListener('mousedown', handleClickOutside);
       return () => {
-        document.removeEventListener("mousedown", handleClickOutside);
+        document.removeEventListener('mousedown', handleClickOutside);
       };
     }, [ref]);
   };
