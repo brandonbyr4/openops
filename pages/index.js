@@ -8,8 +8,8 @@ const fetcher = (url) => fetch(url).then((res) => res.json())
 export default function Home() {
     const { data, error } = useSWR('/api/getsettings', fetcher);
 
-    if (error) return <div>Failed to load</div>
-    if (!data) return <div>Loading...</div>
+    if (error) return <div className="max-w-screen-xl max-auto">Failed to load</div>
+    if (!data) return <div className="max-w-screen-xl max-auto">Loading...</div>
 
     const settings = JSON.parse(data).settings
 

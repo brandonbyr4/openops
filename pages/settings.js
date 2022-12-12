@@ -14,8 +14,8 @@ export default function Settings() {
     const { data, error } = useSWR('/api/getsettings', fetcher);
     const [currentConfig, setCurrentConfig] = useState(null)
 
-    if (error) return <div>Failed to load</div>
-    if (!data) return <div>Loading...</div>
+    if (error) return <div className="max-w-screen-xl max-auto">Failed to load</div>
+    if (!data) return <div className="max-w-screen-xl max-auto">Loading...</div>
 
     const settings = JSON.parse(data).settings
 
